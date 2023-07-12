@@ -1,0 +1,35 @@
+<!doctype html>
+<html> 
+    <head>
+    </head>
+    <body>
+        <h3>Ejercicio 3b. Calculadora</h3>
+            <form id="calculadora" action="S1_T2_N1.php" method="post">
+                <label id="number">
+                    <input type="number" name="Number1" id="number" placeholder= "Number1" required> 
+                <br>
+                <label id="number">
+                    <input type="number" name="Number2" id="number" placeholder="Number2" required> 
+                <br>
+           <label for="dropdown"> Elije el tipo de operacion que deseas realizar:</label> 
+                <select id="dropdown" name="operacion">
+                  <option value="suma">+</option>
+                  <option value="resta">-</option>
+                  <option value="multiplicacion">*</option>
+                  <option value="division">/</option>
+                 </select> 
+        <h3>Ejercicio 4 </h3>
+        <h5>Indica un numero y cuento hasta alli.</h5>
+            <label id="limite">
+                <input type="number" name="limite" id="limite" placeholder= "limite" required> 
+                <input type="number" name="secuencia" id="secuencia" placeholder= "secuencia" required>
+        <h3>Ejercicio 5 </h3>
+        <h5>Indica tu nota para verificarla.</h5>  
+                <input type="number" name="nota" id="nota" step="0.1" min="0" max="10" placeholder= "nota" required>
+            <button type="submit" id="submit2">Calcular!</button>
+        </form> 
+       
+           
+        
+    </body>
+</html>
