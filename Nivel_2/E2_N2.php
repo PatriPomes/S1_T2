@@ -9,6 +9,7 @@ $num_xic=2;
 $num_car=4;
 
 
+
 function preu_total($num_xoc,$num_xic,$num_car){
   return ($num_xoc*Xocolata)+($num_xic*Xiclet)+($num_car*Caramel);
 }
