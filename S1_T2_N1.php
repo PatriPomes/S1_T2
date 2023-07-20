@@ -165,13 +165,14 @@ echo "<br>";
 //Ejercicio 4:
 echo "<b>Ejercicio 4 </b>";
 echo "<br>";
-$limite=$_POST['limite'];
-$secuencia=$_POST['secuencia'];
-function contador($limite,$secuencia){
-    define ("predeterminat", 10);
 
-   if ($limite==0){
-        for ($con=0;$con<=predeterminat;$con+=$secuencia){
+ $limite=$_POST['limite'];
+ $secuencia=$_POST['secuencia'];
+function contador($limite,$secuencia,$predeterminat=10){
+   
+
+   if ($limite==null){
+        for ($con=0;$con<=$predeterminat;$con+=$secuencia){
            echo  $con.",";
         }
     }else{
